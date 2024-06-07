@@ -1,0 +1,31 @@
+sort1 uses: BUBBLE SORT
+
+WORST CASE              BEST CASE
+reversed5000 0.118s     sorted5000 0.020s
+reversed10000 0.271s    sorted10000 0.172s
+reversed50000 4.871s    sorted50000 0.498s
+
+How do you know?:
+BUBBLE SORT Taking more time than sort2 for reversed cases
+
+
+sort2 uses: MERGE SORT
+
+WORST CASE              BEST CASE
+reversed5000 0.046s     sorted5000 0.056s
+reversed10000 0.078s    sorted10000 0.067s
+reversed50000 0.415s    sorted50000 0.480s
+
+How do you know?:
+MERGE SORT Better performing than sort1 and sort3 in all taken cases
+
+
+sort3 uses: SELECTION SORT
+
+WORST CASE              BEST CASE
+reversed5000 0.049s     sorted5000 0.061s
+reversed10000 0.147s    sorted10000 0.131s
+reversed50000 2.413s    sorted50000 2.245s
+
+How do you know?:
+SELECTION SORT Not performing better than sort1 and sort2 in any taken cases
